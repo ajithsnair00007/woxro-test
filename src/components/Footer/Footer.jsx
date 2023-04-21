@@ -12,9 +12,9 @@ function Footer() {
        
        </h2>
        <span className='buttons'>
-        <button style={{backgroundColor:"black"}} className='btn btn-dark border border-white '><i className='fas fa-phone-alt' aria-hidden="true"></i>&nbsp;Contact us</button>
+        <button style={{backgroundColor:"black"}} id='btn' className='btn btn-dark border border-white '><i className='fas fa-phone-alt' aria-hidden="true"></i>&nbsp;Contact us</button>
          &nbsp;
-        <button style={{backgroundColor:"black"}} className='btn btn-dark  border border-white'><i className='fas fa-comment' aria-hidden="true"></i>&nbsp;Let's Talk</button>
+        <button style={{backgroundColor:"black"}} id='btn' className='btn btn-dark  border border-white'><i className='fas fa-comment' aria-hidden="true"></i>&nbsp;Let's Talk</button>
        </span>
      
        
