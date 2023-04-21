@@ -1,0 +1,55 @@
+.card-body{
+    text-align: left;
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+.service{
+    font-weight: bold;
+    margin-top: 3%;
+}
+#card1{
+    background-color: #e4e8f0;
+}
+#card2{
+    background-color:#f0f2f2;
+}
+#card3{
+    background-color: #f0f2f2;
+}
+#card4{
+    background-color: #f7e6f2;
+}
+#card5{
+    background-color: #ededed;
+}
+#card6{
+    background-color: #daf7f0;
+}
+#cardmain{
+    padding-bottom: 9%;
+}
+.cardtext{
+    
+    padding-bottom: 6%;
+}
+
+@media (max-width:500px) {
+    p{
+       font-size: 10px;
+    }
+}
+.card{
+    height: 350px;
+    width:100%
+}
+
+
+
+@media (max-width:200px) {
+    .card-body{
+      display: flex;
+    }
+}
+
+
+   

@@ -1,0 +1,10 @@
+#root{
+  background-color: black;
+}
+@media (max-width:900px) {
+  .root{
+      display: none;
+
+     
+  }
+}

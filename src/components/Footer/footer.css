@@ -1,0 +1,36 @@
+.footer{
+    height: 300px;
+    width: 100%;
+    background-image: url('https://woxro.com/public/assets/png/woxroglobe.png'); 
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: left;
+    padding-left: 4%;
+    padding-top: 10%;
+}
+h2{
+    display: inline-block;
+}
+@media (min-width:500px) {
+    .buttons{
+        /* margin-left: 50%; */
+        display: inline-block;
+        text-align: right;
+    }
+}
+@media (max-width:500px) {
+    .buttons{
+        display: block;
+    }
+}
+
+
+        
+    
+    
+    
+
+
