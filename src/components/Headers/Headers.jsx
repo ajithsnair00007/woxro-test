@@ -30,7 +30,7 @@ function Headers() {
         <div className='nav2'>
 <nav className="navbar navbar-light navbar-toggler" >
 <img src="https://woxro.com/public/assets/png/woxrologo.png" width="205.875" height="56" alt="woxro"></img>
-<button className="navbar-toggler" type="button"   aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<button id='navbutton' className="navbar-toggler" type="button"   aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
 </nav>

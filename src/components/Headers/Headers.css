@@ -6,6 +6,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    opacity: 0.8;
     
     
 }
@@ -35,7 +36,7 @@ h1{
     font-weight: bold;
 }
 
-@media (min-width:481px) {
+@media (min-width:990px) {
         #nav1{
             color: white;
             text-align: left;
@@ -87,4 +88,10 @@ h1{
 }
 .nav1{
     padding-left: -1%;
+}
+
+@media (min-width:890px){
+    #navbutton{
+        display: none;
+    }
 }
