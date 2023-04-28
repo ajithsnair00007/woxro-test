@@ -43,7 +43,7 @@ h1{
     }
 
 @media (max-width:990px) {
-    #nav1{
+    .nav1{
         display: none;
     }
     

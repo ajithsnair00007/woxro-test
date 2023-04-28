@@ -30,43 +30,43 @@ function Headers() {
         <div className='nav2'>
 <nav className="navbar navbar-light navbar-toggler" >
 <img src="https://woxro.com/public/assets/png/woxrologo.png" width="205.875" height="56" alt="woxro"></img>
-<button class="navbar-toggler" type="button"   aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+<button className="navbar-toggler" type="button"   aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
   </button>
 </nav>
        </div>
        
        <div className='nav3'>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-light bg-dark">
     
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav w-100 justify-content-around">
+  <div className="collapse navbar-collapse" id="navbarNav">
+    <ul className="navbar-nav w-100 justify-content-around">
       <li >
       <a className="nav-link" href=" " style={{color:'white'}} >Home</a>
       </li>
-      <li class="nav-item">
+      <li className="nav-item">
         <a className="nav-link" href=" " style={{color:'white'}} >About Us</a>
       </li>
-      <li class="nav-item">
+      <li className="nav-item">
         <a className="nav-link" href=" " style={{color:'white'}}>Services</a>
       </li>
-      <li class="nav-item">
+      <li className="nav-item">
         <a className='nav-link' href=" " style={{color:'white'}}>Technology</a>
       </li>
       <li >
         <a className="nav-link" href=" " style={{color:'white'}}>Careers </a>
       </li>
-      <li class="nav-item">
+      <li className="nav-item">
         <a className="nav-link" href=" " style={{color:'white'}}>Blogs</a>
       </li>
-      <li class="nav-item">
+      <li className="nav-item">
         <a className="nav-link" href=" " style={{color:'white'}}>Our Works</a>
       </li>
-      <li class="nav-item">
+      <li className="nav-item">
         <a className='nav-link' href=" " style={{color:'white'}}>Contact Us</a>
       </li>
     </ul>
