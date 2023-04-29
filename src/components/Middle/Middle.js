@@ -5,8 +5,8 @@ function Middle() {
   return (
     <div id="cardmain">
       <div style={{textAlign:'center'}} className="cardtext">
-        <p className="service">SERVICES WE DELIVER</p>
-        <h2>
+        <p className="service"><strong>SERVICES WE DELIVER</strong></p> <br />
+        <h2 className="h2">
           Preparing for our success, we provide truly
           <br /> prominent IT solutions.
         </h2>
@@ -14,7 +14,7 @@ function Middle() {
 
       <div style={{ padding: "0.5rem" }} className="row">
         <div style={{ padding: "0.5rem" }} className="col-md-4 ">
-          <div style={{ cursor: "pointer" }} id="card1" className="card">
+          <div style={{ cursor: "pointer", overflow:'hidden' }} id="card1"  className="card">
           
             <div  className="card-body">
             <img    
@@ -41,7 +41,7 @@ function Middle() {
         </div>
 
         <div style={{ padding: "0.5rem" }} className="col-md-4 ">
-          <div style={{ cursor: "pointer" }} id="card2" className="card">
+          <div style={{ cursor: "pointer",overflow:'hidden' }} id="card2" className="card">
           
             <div  className="card-body">
             <img  
@@ -63,7 +63,7 @@ function Middle() {
         </div>
 
         <div style={{ padding: "0.5rem" }} className="col-md-4 ">
-          <div style={{ cursor: "pointer" }} id="card3" className="card">
+          <div style={{ cursor: "pointer",overflow:'hidden'  }} id="card3" className="card">
           
             <div  className="card-body">
             <img 
@@ -84,7 +84,7 @@ function Middle() {
 
       <div style={{ padding: "0.5rem" }} className="row">
         <div style={{ padding: "0.5rem" }} className="col-md-4 ">
-          <div style={{ cursor: "pointer" }} id="card4" className="card">
+          <div style={{ cursor: "pointer", overflow:'hidden' }} id="card4" className="card">
           
             <div  className="card-body">
             <img  
@@ -105,7 +105,7 @@ function Middle() {
         </div>
 
         <div style={{ padding: "0.5rem" }} className="col-md-4 ">
-          <div style={{ cursor: "pointer" }}  id="card5" className="card">
+          <div style={{ cursor: "pointer",overflow:'hidden'  }}  id="card5" className="card">
           
             <div  className="card-body">
               <img
@@ -125,7 +125,7 @@ function Middle() {
         </div>
 
         <div style={{ padding: "0.5rem" }} className="col-md-4 ">
-          <div style={{ cursor: "pointer" }}  id="card6" className="card">
+          <div style={{ cursor: "pointer", overflow:'hidden'}}  id="card6" className="card">
           
             <div  className="card-body">
             <img

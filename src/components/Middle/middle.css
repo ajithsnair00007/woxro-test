@@ -1,43 +1,69 @@
 .card-body{
+    
     text-align: left;
     padding-top: 10%;
     padding-bottom: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .service{
-    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 3%;
+    text-align: center;
+    color:#464746;
+    letter-spacing: 0.3rem;
+    font-size: 12px;
+    
+}
+
+@media (max-width:800px){
+    .service{
+        margin-top: 10%;
+        
+    }
+}
+
+@media (max-width:500px){
+    .service{
+        margin-top: 10%;
+       
+    }
 }
 #card1{
+    border: 1px ridge;
     background-color: #e4e8f0;
 }
 #card2{
+    border: 1px ridge;
     background-color:#f0f2f2;
 }
 #card3{
+    border: 1px ridge;
     background-color: #f0f2f2;
 }
 #card4{
+    border: 1px ridge;
     background-color: #f7e6f2;
 }
 #card5{
+    border: 1px ridge;
     background-color: #ededed;
 }
 #card6{
+    border: 1px ridge;
     background-color: #daf7f0;
 }
 #cardmain{
+    margin-right: 3%;
+    margin-left: 3%;
     padding-bottom: 9%;
+    font-family: 'poppins' sans-serif;
 }
 .cardtext{
     
     padding-bottom: 6%;
 }
 
-@media (max-width:500px) {
-    p{
-       font-size: 10px;
-    }
-}
+
 .card{
     height: 350px;
     width:100%
@@ -49,6 +75,34 @@
     .card-body{
       display: flex;
     }
+}
+
+.h2{
+    font-size: 2rem;
+    letter-spacing: 0.06rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media (max-width:480px){
+    .h2{
+        font-size: 1.5rem;
+    }
+}
+
+h3{
+    font-size: 1.27rem;
+    font-weight: bold;
+    font-style: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0.5rem;
+}
+@media (max-width:450px){
+#card1,#card2,#card3,#card4,#card5,#card6{
+    border: 1px solid;
+}
+}
+
+img{
+    padding-bottom: 5%;
 }
 
 

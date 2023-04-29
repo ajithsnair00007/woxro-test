@@ -1,5 +1,7 @@
 .footer{
-    height: 300px;
+    font-size: 2rem;
+    font-weight: bold;
+    height: 400px;
     width: 100%;
     background-image: url('https://woxro.com/public/assets/png/woxroglobe.png'); 
     background-color: black;
